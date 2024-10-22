@@ -1,0 +1,10 @@
+import requests 
+from bs4 import BeautifulSoup 
+import pandas as pd 
+
+csv_data=pd.read_csv('Crop Production statistics')
+client=MongoClient('mongo://localhost')
+db=client['crop_production']
+collection=db['crop_production']
+table=pd.get
+df=table[0]
